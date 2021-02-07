@@ -1,10 +1,37 @@
 /*
  *  Created by IntelliJ IDEA.
  *  User: Vaibhav
- *  Date: 23-Mar-20
- *  Time: 7:17 PM
+ *  Date: 28-Mar-20
+ *  Time: 2:52 PM
  */
 package problem1.node;
 
 public class TreeNode {
+    private int data;
+    private TreeNode left;
+    private TreeNode right;
+
+    public void setdata(int data) {
+        this.data = data;
+    }
+
+    public int getdata() {
+        return data;
+    }
+
+    public TreeNode getLeft() {
+        return left;
+    }
+
+    public void setLeft(TreeNode left) {
+        this.left = left;
+    }
+
+    public TreeNode getRight() {
+        return right;
+    }
+
+    public void setRight(TreeNode right) {
+        this.right = right;
+    }
 }
